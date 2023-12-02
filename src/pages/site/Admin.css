@@ -1,0 +1,112 @@
+/* Login color */
+:root {
+    --bs-blue: #04226A !important;
+}
+
+.logincolor {
+    color: var(--bs-blue);
+}
+
+/* reception login color */
+.backgroundcolor {
+    background-color: #04226a !important;
+}
+
+/* image hide */
+
+@media only screen and (max-width: 1000px) {
+    .picture {
+        display: none;
+
+    }
+}
+
+
+
+/* paragraph */
+.split {
+    height: 100%;
+    width: 70%;
+    padding-top: 70px;
+
+}
+
+/* button center */
+.center {
+    margin-left: 25%;
+
+
+}
+
+
+/* Background  color */
+.bgcolor {
+    background-color: #F8F7F2;
+}
+
+/* Border */
+.border {
+    border: #F8F7F2;
+}
+
+/* Line */
+.line {
+    width: 170px;
+    margin-left: 170px;
+
+}
+
+
+/* font family */
+.font {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 200;
+}
+
+/* keep me sign in */
+.is {
+    font-size: 1.5rem;
+}
+
+
+/* footer */
+.opd-site, .nav-link1 {
+    font-size: 13px;
+    font-weight: bold;
+}
+
+@media only screen and (max-width: 1000px) {
+    .opd-site, .nav-link1 {
+        display: none;
+    }
+}
+
+/* bottom footer */
+.at-site, .nav-link {
+    font-size: 12px;
+}
+
+@media only screen and (max-width: 700px) {
+    .at-login-text {
+        font-size: 14px;
+    }
+
+    .at-personal {
+        font-size: 14px;
+        text-align: center;
+    }
+
+    .at-site .nav-link {
+        font-size: 8px;
+    }
+
+    .at-site ul li:nth-child(3) {
+        display: none;
+    }
+
+    .at-site ul li:nth-child(4) {
+        display: none;
+    }
+}
+
+

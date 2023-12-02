@@ -1,0 +1,161 @@
+.main-container {
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+/* Buttons color */
+  .backgroundcolor {
+    background-color: #04226a !important;
+}
+
+
+  
+  .header{
+    height: 87px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .btn-logout {
+    color: red;
+  }
+  
+  .header-logo {
+    width: 150px;
+  }
+  
+  .patient-reg-card {
+    border: 2px solid #04226a !important;
+    /*justify-content: center !important;*/
+    height: 100%;
+  }
+  
+  .patient-reg-card-body {
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    justify-content: center;
+    padding: 20px 40px 20px 40px !important;
+  }
+  
+  .patient-reg-card-header {
+    /*margin: 15px 40px 0 40px;*/
+    margin: 10px 30px 0 30px;
+    background-color: #04226a !important;
+    color: #FFF
+  }
+  
+  .patient-list-card-header {
+    margin: 15px 15px 0 15px;
+    background-color: #04226a !important;
+    color: #FFF
+  }
+  
+  .input-patient-search {
+    width: 50% !important;
+  }
+  
+  .search-patient {
+     border-radius: 1.5rem !important;
+  }
+  
+  .bi-search {
+    position: absolute;
+    right: 9px;
+    top: 4px;
+    color: #000;
+    z-index: 100;
+  }
+  /* .calender{
+    position: relative;
+    right: 2px;
+    top: 2px;
+    color: #000;
+    z-index: 100;
+  } */
+  .btn-doctors-tabs {
+    background-color: #4F6496;
+    color: #FFF;
+    text-align: center;
+    font-weight: 500;
+    line-height: 30px;
+    margin-bottom: 10px;
+  }
+  .btn-registration-form {
+    background-color: #04226a !important;
+    border: none !important;
+  }
+  
+  .btn-registration-form:focus {
+    border: none !important;
+    outline: 0 !important;
+    box-shadow:none !important;  
+  }
+  .btn-doctors-tabs.active {
+    background-color: #04226a;
+  }
+  
+  .gender-label {
+    margin-right: 10px;
+  }
+  
+  .borderless td, .borderless th {
+    border: none;
+  }
+  .capital{
+    text-transform: capitalize;
+  }
+  
+
+  
+  
+  @media only screen and (max-width: 768px) {
+    .main-container {
+      padding-left: 15px;
+      padding-right: 15px;
+    }
+  
+    .patient-reg-card-body {
+      padding: 20px 20px 20px 20px !important;
+    }
+  
+    .patient-reg-card-header {
+      margin: 20px 20px 0 20px;
+    }
+  }
+
+  /* / footer / */
+  .opd-site,.nav-link{
+    font-size: 13px;
+    font-weight: bold;
+    }
+    @media only screen and (max-width: 1000px) {
+        .opd-site,.nav-link{
+            display: none;
+        } 
+    }
+
+/* bottom footer  */
+ .at-site,.nav-link{
+    font-size: 12px;
+    }
+@media only screen and (max-width: 700px) {
+    .at-login-text {
+        font-size:14px;
+    } 
+    
+    .at-personal {
+        font-size: 14px;
+        text-align: center;
+    }
+    
+    .at-site .nav-link {
+        font-size: 8px;
+    }
+    
+    .at-site ul li:nth-child(3) {
+        display: none;
+    }
+.at-site ul li:nth-child(4) {
+        display: none;
+    }}

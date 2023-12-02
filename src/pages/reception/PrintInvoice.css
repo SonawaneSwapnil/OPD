@@ -1,0 +1,133 @@
+
+/* Login color */
+:root{
+    --bs-blue:#04226A !important;
+  }
+  .logincolor{
+    color:var(--bs-blue);
+    float: right;
+  }
+  /* reception login color */
+  .backgroundcolor{
+    background-color:var(--bs-blue) ;
+  }
+  
+  /* Background  color */
+  .bgcolor{
+    background-color: #F8F7F2;
+  }
+  
+  /* Border */
+  .border{
+    border:#F8F7F2 ;
+  }
+  
+  /* font family */
+  .font{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 200;
+  }
+  /* keep me sign in */
+  .is{
+    font-size:1.5rem;
+  }
+  
+  /* <second page> */
+  .saiseva-logo
+  {
+    margin-left: 20px;
+    width: 150px;
+  }
+  .logout
+  {
+    color: red;
+    float: right;
+    margin-right: 20px;
+  }
+  .main-card {
+    border: 2px solid #04226a !important;
+    justify-content: center !important;
+    height: 100%;
+    
+  
+  }
+  .patient-list-card-header {
+    /* margin: 15px 15px 0 15px; */
+    background-color: #04226a !important;
+    color: #FFF;
+    padding-left: 5%;
+  }  
+  .input-patient-search
+  {
+      width: 40%;
+      margin-left: 30%;
+  }
+  .input-patient-search {
+    width: 50% !important;
+  }
+  .btn_print
+  {
+    background-color: #04226a !important;
+  }
+  .receipt
+  {
+    border: 2px solid #ccc;
+      
+  }
+  .capital{
+    text-transform: capitalize;
+  }
+  .bi-search {
+    position: absolute;
+    right: 9px;
+    top: 4px;
+    color: #000;
+    z-index: 100;
+  }
+  
+  .Hospitalname
+  {
+  float: right;
+  } 
+  .line-in-middle {
+    width:400px;
+    height:500px;
+      background: linear-gradient(to right, 
+                                   
+        transparent calc(30% - 0.81px), 
+        #ccc calc(30% - 0.8px), 
+        #ccc calc(30% + 0.8px), 
+        transparent calc(30% + 0.81px), 
+        transparent 100%); 
+        
+        
+    }
+    .rx
+    {
+        padding-left: 220px;
+    }
+    .doctor_sign
+    {
+        float: right;
+    }
+  
+    /* footer */
+  .opd-site,.nav-link1{
+    font-size: 13px;
+    font-weight: bold;
+    }
+    @media only screen and (max-width: 1000px) {
+        .opd-site,.nav-link1{
+            display: none;
+        } 
+    }
+  
+  /* bottom footer */
+  .at-site,.nav-link{
+    font-size: 12px;
+    }
+  @media only screen and (max-width: 700px) {
+    .at-login-text {
+        font-size:14px;
+    } 
+  }
